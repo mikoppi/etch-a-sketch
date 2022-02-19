@@ -6,17 +6,15 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns:  repeat(16, 1fr);
     width:640px;
-    
+    height:640px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
 }
 
 .container>div {
     display:flex;
     background-color: white;
-    height:40px;
-    width:40px;
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    
     
 
 }
